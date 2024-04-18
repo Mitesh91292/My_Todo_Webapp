@@ -4,6 +4,7 @@ import functions
 todos = functions.get_todos("todos.txt")
 
 
+
 def add_todo():
     new_local_todo = st.session_state["new_todo"] + "\n"
     todos.append(new_local_todo)
